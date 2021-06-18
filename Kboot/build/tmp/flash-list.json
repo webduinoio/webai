@@ -1,0 +1,25 @@
+{
+    "version": "0.1.1",
+    "files": [
+        {
+            "address": 0,
+            "bin": "bootloader_lo.bin",
+            "sha256Prefix": true
+        },
+        {
+            "address": 4096,
+            "bin": "bootloader_hi.bin",
+            "sha256Prefix": true
+        },
+        {
+            "address": 16384,
+            "bin": "config.bin",
+            "sha256Prefix": false
+        },
+        {
+            "address": 20480,
+            "bin": "config.bin",
+            "sha256Prefix": false
+        }
+    ]
+}
